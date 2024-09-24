@@ -12,6 +12,7 @@ if(instance_exists(obj_student_idle))
 		image_xscale = 0.6;
 		image_yscale = 0.6;
 	}
+	
 }
 else if(instance_exists(obj_student_eat))
 {
@@ -23,6 +24,7 @@ else if(instance_exists(obj_student_eat))
 		image_xscale = 0.6;
 		image_yscale = 0.6;
 	}
+	
 }
 else if(instance_exists(obj_student_bird))
 {

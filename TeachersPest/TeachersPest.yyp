@@ -39,9 +39,11 @@
   },
   "name":"TeachersPest",
   "resources":[
+    {"id":{"name":"font_back_button","path":"fonts/font_back_button/font_back_button.yy",},},
     {"id":{"name":"font_menu_button","path":"fonts/font_menu_button/font_menu_button.yy",},},
     {"id":{"name":"font_menu_title","path":"fonts/font_menu_title/font_menu_title.yy",},},
     {"id":{"name":"font_mode_button","path":"fonts/font_mode_button/font_mode_button.yy",},},
+    {"id":{"name":"obj_game_back","path":"objects/obj_game_back/obj_game_back.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_menu_controls","path":"objects/obj_menu_controls/obj_menu_controls.yy",},},
     {"id":{"name":"obj_menu_help","path":"objects/obj_menu_help/obj_menu_help.yy",},},

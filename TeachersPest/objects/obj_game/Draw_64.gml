@@ -1,0 +1,1 @@
+draw_text(380, 15, score);
