@@ -41,6 +41,7 @@
   "resources":[
     {"id":{"name":"font_menu_button","path":"fonts/font_menu_button/font_menu_button.yy",},},
     {"id":{"name":"font_menu_title","path":"fonts/font_menu_title/font_menu_title.yy",},},
+    {"id":{"name":"font_mode_button","path":"fonts/font_mode_button/font_mode_button.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_menu_controls","path":"objects/obj_menu_controls/obj_menu_controls.yy",},},
     {"id":{"name":"obj_menu_help","path":"objects/obj_menu_help/obj_menu_help.yy",},},
@@ -48,6 +49,8 @@
     {"id":{"name":"obj_menu_play","path":"objects/obj_menu_play/obj_menu_play.yy",},},
     {"id":{"name":"obj_menu_quit","path":"objects/obj_menu_quit/obj_menu_quit.yy",},},
     {"id":{"name":"obj_menu_title","path":"objects/obj_menu_title/obj_menu_title.yy",},},
+    {"id":{"name":"obj_move_bird","path":"objects/obj_move_bird/obj_move_bird.yy",},},
+    {"id":{"name":"obj_move_eat","path":"objects/obj_move_eat/obj_move_eat.yy",},},
     {"id":{"name":"obj_move_parent_button","path":"objects/obj_move_parent_button/obj_move_parent_button.yy",},},
     {"id":{"name":"obj_student_bird","path":"objects/obj_student_bird/obj_student_bird.yy",},},
     {"id":{"name":"obj_student_eat","path":"objects/obj_student_eat/obj_student_eat.yy",},},
