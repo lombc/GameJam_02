@@ -17,9 +17,12 @@ t_sec = 59;
 t_min -= 1;
 }
 
+var look = choose(12, 20, 24, 28, 34, 38, 41, 45, 49, 52, 56);
+var listen = look;
 
-if(t_sec == 40 && instance_exists(obj_teacher_idle))
+if(look == listen && instance_exists(obj_teacher_idle))
 {
+	
 	instance_destroy(obj_teacher_idle);
 	
 	var inst = instance_create_layer(192, 352, "Student", obj_teacher_tell);
@@ -28,8 +31,9 @@ if(t_sec == 40 && instance_exists(obj_teacher_idle))
 		image_xscale = 0.6;
 		image_yscale = 0.6;
 	}
+	
 }
-else if(t_sec == 38 && instance_exists(obj_teacher_tell))
+else if(look - 2 && instance_exists(obj_teacher_tell))
 {
 	instance_destroy(obj_teacher_tell);
 	
@@ -43,9 +47,9 @@ else if(t_sec == 38 && instance_exists(obj_teacher_tell))
 	if(instance_exists(obj_student_bird) || instance_exists(obj_student_eat))
 	{
 		room_goto(rm_gameover);
-	}	
+	}
 }	
-else if(t_sec == 36 && instance_exists(obj_teacher_look))
+else if(instance_exists(obj_student_idle) && instance_exists(obj_teacher_look))
 {
 	instance_destroy(obj_teacher_look);
 	
@@ -55,5 +59,4 @@ else if(t_sec == 36 && instance_exists(obj_teacher_look))
 		image_xscale = 0.6;
 		image_yscale = 0.6;
 	}
-	
 }

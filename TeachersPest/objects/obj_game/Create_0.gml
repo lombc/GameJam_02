@@ -1,2 +1,2 @@
 var scoring;
-global.scoring = 0;
+obj_game.scoring = 0;
