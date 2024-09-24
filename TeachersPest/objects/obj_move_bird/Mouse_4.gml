@@ -12,7 +12,7 @@ if(instance_exists(obj_student_idle))
 		image_xscale = 0.6;
 		image_yscale = 0.6;
 	}
-	obj_game.scoring += 1;
+	global.scoring += 1;
 }
 else if(instance_exists(obj_student_eat))
 {
@@ -24,9 +24,9 @@ else if(instance_exists(obj_student_eat))
 		image_xscale = 0.6;
 		image_yscale = 0.6;
 	}
-	obj_game.scoring += 1;
+	global.scoring += 1;
 }
 else if(instance_exists(obj_student_bird))
 {
-	obj_game.scoring += 1;
+	global.scoring += 1;
 }

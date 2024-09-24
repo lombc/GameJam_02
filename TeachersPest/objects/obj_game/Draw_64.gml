@@ -1,1 +1,1 @@
-draw_text(380, 15, obj_game.scoring);
+draw_text(360, 17, global.scoring);
