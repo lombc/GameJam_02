@@ -1,1 +1,2 @@
-score = 0;
+var scoring;
+obj_game.scoring = 0;
